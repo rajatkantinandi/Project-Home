@@ -18,3 +18,5 @@
 
 ##Screenshot
 Sample screenshot has been provided in the project directory
+
+**Screenshots for desktop, mobile & tablet is shown under the master directory**
