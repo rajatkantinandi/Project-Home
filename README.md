@@ -1,7 +1,7 @@
 #Project-Home
 --------------------
 
-###Designing homepage for compitable with any browser
+*Designing homepage for compitable with any browser*
 
 ##DESCRIPTION
  Hi, In this project I'm designing hompage for a browser where user can save their favourite sites after login & data will be synced to the server. A preliminary design has been developed which works perfectly on localhost.
