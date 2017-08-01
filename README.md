@@ -15,6 +15,7 @@
 * Google & Bing search bars
 * News update based on RSS news source (User has ability to change the source): 2hr interval update or manual refresh
 * Responsive design, adaptable to mobile, tablet & desktop
+* Cross browser, Cross Platform & Cross device support
 
 ##Screenshot
 Sample screenshot has been provided in the project directory
