@@ -1,0 +1,138 @@
+body{
+	background: url('../images/texture.png') repeat;
+	background-color: rgba(50,50,150,0.5);
+}
+.navbar{
+	background-color: rgb(10,0,90);
+	padding-top: 5px;
+	height: 30px;
+	border:none;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+.navbar-header{
+	margin-top: -8px;
+}
+.signform,.signedmenu{
+	right: 0px;
+	left: auto;
+}
+.signform{
+	width: 310px;
+	padding: 10px;
+}
+.dropdown-menu{
+	min-width: 0px;
+}
+.signbtn{
+	float: right;
+	right: 10px;
+	left: auto;
+}
+.input-group-addon{
+	padding: 0px 5px;
+}
+button.searchgo{
+	border: none;
+}
+.signbtn button{
+	padding: 3px 7px;
+}
+.sites,.news{
+	background-color: rgb(100,230,150);
+	border: 2px ridge indigo;
+	padding: 10px;
+	margin-top: 53px;
+}
+.fav{
+	background-color: rgb(250,230,250);
+	padding: 10px;
+}
+.site,.siteoverlay{
+	display: block;
+	border-radius: 10px;
+	border: 1px solid indigo;
+	text-align: center;
+	padding: 1px;
+	margin: 7px -8px;
+	box-shadow: 1px 0px 4px 1px black;
+	overflow: hidden;
+	height:110px;
+}
+.siteoverlay:hover{
+	box-shadow: 0px 0px 6px 4px indigo;
+}
+a:hover{
+	text-decoration: none;
+}
+a{
+	color: black;
+}
+.popover-content{
+font-weight: bold;
+font-style: italic;
+box-shadow: 0px 0px 6px 3px grey;
+}
+.alert{
+	padding: 5px 25px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 2px 2px black;
+}
+.siteoverlays{
+	position: relative;
+	z-index: 5;
+	margin-top: -116px;	
+	visibility: hidden;
+}
+@media screen and (max-width: 767px){
+		.sitea{
+			width: 25%
+		}
+}
+@media screen and (min-width: 768px){
+.newstab{
+			visibility: hidden;
+		}
+.newstofav{
+	visibility: hidden;
+}
+}
+@media screen and (max-width: 480px){
+		.sitea{
+			width: 33.33%
+		}
+}
+.siteoverlay{
+	background-color: rgb(0,0,100);
+	opacity: 0.7;
+	cursor: move;
+}
+.nav-tabs{
+	border-bottom: none;
+}
+.nav-tabs .active{
+	border-bottom: 4px solid maroon;
+}
+.headline{
+	background-color: maroon;
+	padding: 5px 15px;
+	opacity: 0.8;
+	color: orange;
+	border-radius: 10px;
+}
+.newsitem{
+	background-color: white;
+	color: maroon;
+	font-weight: bold;
+	padding: 2px 10px;
+}
+.btn-primary{
+	background-color: rgb(0,0,90);
+}
+.btn-primary:hover{
+	background-color: white;
+	color: rgb(0,0,90);
+	font-size: 1.1em;
+}
